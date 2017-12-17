@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* billeder-borders*/
+
+.casepic
+{
+	border: medium solid #000000;
+	transition-property: all;
+	transition-duration: 700ms;
+	transition-timing-function: ease-in-out;
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+
+}
+
+
+	
+/* case styling*/
+.casesection {
+	display: inline-block;
+	padding: 3em;
+}
+
+.casesforside {
+	text-align: center;
+}
+.casepic:hover  {
+	opacity: 0.7;
+}
+
+/* logo*/
+.logo {
+	text-align: center;
+	color: red;
+	
+}
+
+/* Nav bar*/
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+
+	
+}
+
+
+  .nav li {
+    display: inline-block;
+
+  }
+
+.navli {
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+;
+
+}
+
+body {
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+}
+body {
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+}
+.case1pic {
+	width: 100%;
+	height: auto;
+}
+
+
+
+body {
+	background-color: antiquewhite;
+	
+}
+
+ /* cases siden*/
+
+.casestotal {
+
+}
+
+.case1 {
+	
+	text-align: center;
+}
+/*textbox 1-4 cases*/
+
+.textbox {
+	display: inline-block;
+	max-width: 468px;
+	min-width: 200px;
+	padding: 2px;
+	margin: 10px;
+	border: #000000 solid;
+	background-color: #FFFFFF;
+	float: left;
+	border-top-right-radius: 25px;
+	
+
+	
+}
+
+.case1pic {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.cassestotal {
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	align-content: center;	
+}
+
+/* Om Mig*/
+footer {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.omh1 {
+	text-align: center;
+}
+
+
+.case1text1 {
+	max-width: 1000px;
+	display: inline-block;
+	
+}
+body footer {
+	clear: both;
+}
+
+/* Media queries */
+	@media only screen and (max-width : 893px ){
+		.casesection {
+			padding: 1em;
+		
+		}
+		.case {
+	width: 100%;
+	height: auto;
+}
+
+		.nav ul {
+			text-align: center;
+			padding: 0px;
+		}
+		
+		
+  .nav li {
+	display: block;
+	text-align: center;
+    min-width: auto;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+	}
+		.navli {
+		padding: 0px;
+			
+		}
+	.nav {
+		display: block;
+	}
+		
+
+  }	
+		
+
+
+
+.ommig {
+	width: 100%;
+	
+}
+
+.designer {
+	text-align: center;
+	max-width: 35%;
+
+	
+}
+
+.omtotal {
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	align-content: center;	
+}
+
+.ompic {
+	border: medium solid #000000;
+	
+	max-width: 550px;
+	width: 100%;
+	height: auto;
+
+}
